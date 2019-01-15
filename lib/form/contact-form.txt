@@ -1,0 +1,35 @@
+<div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+[text* sendername id:name class:form-control placeholder "Your Name"]
+                  <div class="help-block with-errors"></div>
+                </div>                                 
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+[email* email id:email class:form-control placeholder "Your Email"]
+                  
+                  <div class="help-block with-errors"></div>
+                </div> 
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+[text Subject id:msg_subject class:form-control placeholder "Subject"]
+                  
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group"> 
+[textarea* message id:message class:form-control placeholder "Your Message"]
+                  
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="submit-button">
+[submit id:submit class:btn class:btn-common class:btn-effect "Send Message"]
+                  
+                  <div id="msgSubmit" class="h3 hidden"></div> 
+                  <div class="clearfix"></div> 
+                </div>
+              </div>
+            </div>

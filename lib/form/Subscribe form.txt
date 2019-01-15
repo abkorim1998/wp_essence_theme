@@ -1,0 +1,26 @@
+<div class="row">
+                <div class="col-12 form-line">
+                    <div class="form-group">
+[text* sendername class:form-control placeholder "Name"]
+                    
+                    </div>
+                </div>
+                <div class="col-md-12 form-line">
+                    <div class="form-group">
+[tel phone class:form-control placeholder "Phone"]
+                    
+                    </div>
+                </div>
+                <div class="col-12 form-line">
+                    <div class="form-group">
+[email* email class:form-control placeholder "Email"]
+                   
+                    </div> 
+                </div>
+                <div class="col-12">
+                    <div class="form-submit">
+[submit class:btn class:btn-common class:btn-effect "Subscribe Now"]
+                    
+                    </div>
+                </div>
+                </div>
